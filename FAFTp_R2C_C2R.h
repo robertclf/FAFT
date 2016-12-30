@@ -1,4 +1,4 @@
-// Fast Accurate Fourier Transform was written by Oscar R. Cabrera L.
+// Fast Accurate Fourier Transform (FAFT) was written by Oscar R. Cabrera L.
 // Contributors: Renan Cabrera, Denys I. Bondar.
 
 #pragma once
@@ -1000,7 +1000,7 @@ template<int radix> inline __device__ void complexMulExpZ( float2 *y, float2 *z,
 
 // ************************
 
-__device__ void GENERAL_FrFFT128( float2 *y, float dx, float delta, int segment, int tid )
+__device__ void GENERAL_FAFT128( float2 *y, float dx, float delta, int segment, int tid )
 {
     __shared__ float smdatax[162];
     __shared__ float smdatay[162];
