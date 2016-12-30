@@ -1,5 +1,7 @@
 // Fast Accurate Fourier Transform (FAFT) was written by Oscar R. Cabrera L.
 // Contributors: Renan Cabrera, Denys I. Bondar.
+// Copyright (c) 2016
+// All rights reserved.
 
 #include "FAFTp_R2C_C2R.h"
 
